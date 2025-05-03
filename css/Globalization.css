@@ -1,0 +1,38 @@
+
+
+    /* Contenitore principale con due colonne */
+    .contenitore {
+      display: flex;
+      gap: 20px;
+    }
+
+    /* Prima colonna */
+    .colonna1 {
+      flex: 1;
+      width: 30%;
+      background-color: linear-gradient(rgb(238, 189, 117), rgb(138, 84, 79));
+      padding: 5px;
+      border-right: 8px solid rgb(138, 84, 79);
+      text-align: justify;
+    }
+
+    /* Seconda colonna che contiene tre sottocolonne */
+    .colonna2 {
+      width: 100%;
+      flex: 2; /* Occupa più spazio rispetto alla colonna 1 */
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+      text-align: justify;
+      padding: 10px;
+    }
+
+    /* Le tre sottocolonne nella seconda colonna */
+    .subcolonna {
+      background-color: rgb(187, 137, 127);
+      color: aliceblue;
+      padding: 15px;
+      text-align: justify;
+    }
+
+

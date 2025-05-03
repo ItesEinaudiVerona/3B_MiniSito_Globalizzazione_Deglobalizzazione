@@ -11,6 +11,7 @@
     --primary-color-background-footer: linear-gradient(rgb(138, 84, 79), rgb(238, 189, 117));
     --primary-color-background-container: #FFFFCC;
     --primary-color-background-border: rgb(165, 189, 156);
+    --primary-color-background-active: rgb(187, 137, 127);
     --primary-color-container-border: rgb(138, 84, 79);
     --primary-font:  font-family: verdana;
     --primary-fontsize-h1: 44pt;
@@ -104,6 +105,13 @@ nav .indice li {
     display: inline-block;
     list-style: none;
     padding: 0;
+    
+
+}
+
+nav .indice li .active{
+  background-color: var(--primary-color-background-active);
+  color: var(--primary-color-text-h1-h3);
     
 
 }
