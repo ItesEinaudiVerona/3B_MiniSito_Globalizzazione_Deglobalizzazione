@@ -1,0 +1,27 @@
+
+p{
+    color: white;
+    text-align: justify;
+    margin: 25px;
+}
+
+.VSDdG_figure_articoli {
+
+    width: 100%;
+    text-align: center;
+
+}
+
+.VSDdG_img_articoli {
+
+   margin: auto;
+
+}
+
+#logo_footer{
+   width: auto;
+   height: 60px;
+   margin-left: auto;
+   margin-right: auto;
+   margin-top: 10%;
+}

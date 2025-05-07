@@ -38,6 +38,7 @@
 
 }
 
+
 /* Chiusura reset impostazioni del browser */
 
 
@@ -115,6 +116,21 @@ nav .indice li .active{
     
 
 }
+a:link {
+    color: inherit;
+  }
+  
+ 
+a:visited {
+    color: inherit;
+  }
+  
+ 
+a:hover {
+    color: inherit;
+  }
+
+
 
 nav .indice li a {
     font-family: sans-serif;
